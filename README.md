@@ -1,53 +1,142 @@
-# 👋 Hi, I'm Babi Clovis Abah
+# 🚴 Cyclistic Bike-Share Analysis
 
-### 🎯 Data Analyst | Aspiring Data Engineer | Business Intelligence Enthusiast
+## 📌 Project Overview
 
-I specialize in architecting end-to-end data pipelines and turning raw datasets into actionable business strategy using Python, SQL, and Cloud infrastructure.
+This project analyzes Cyclistic bike-share data to understand the behavioral differences between casual riders and annual members.
 
----
+The objective of the analysis is to identify insights and business recommendations that can help convert casual riders into annual members.
 
-## 🛠️ Tech Stack
-
-| Category | Tools |
-| :--- | :--- |
-| **Languages** | ![Python](https://shields.io) ![SQL](https://shields.io) |
-| **Cloud** | ![GCP](https://shields.io) ![BigQuery](https://shields.io) |
-| **Visualization** | ![Power BI](https://shields.io)  |
-| **Data Engineering** | ![Pandas](https://shields.io) ![Git](https://shields.io) |
+This project demonstrates a complete end-to-end analytics workflow using Python, Google Cloud Platform, BigQuery SQL, and Power BI.
 
 ---
 
-## 🚀 Featured Projects
+# 🛠 Tools & Technologies
 
-### 🚲 [Cyclistic Bike-Share Pipeline](PASTE_REPO_LINK_HERE)
-**End-to-End Data Engineering & Analytics**
-*   **The Problem:** Converting casual riders into profitable annual members.
-*   **The Solution:** Built a Python ETL pipeline that automates data ingestion into **Google Cloud Storage** and **BigQuery**.
-*   **The Result:** A high-performance **Power BI** dashboard revealing a 3x higher weekend usage rate for casual riders, leading to targeted marketing recommendations.
-*   **Tech:** `Python`, `GCS`, `BigQuery`, `SQL`, `Power BI`
-
-### 📊 [Sales Analytics Dashboard](PASTE_REPO_LINK_HERE)
-**Business Intelligence & Performance Tracking**
-*   Modeled multi-year sales data to track YoY growth and regional performance.
-*   **Tech:** `SQL`, `Power BI`, `Excel`
+- Python
+- Google Cloud Storage
+- BigQuery
+- SQL
+- Power BI
+- GitHub
 
 ---
 
-## 📈 Engineering Impact
-*   **Pipeline Automation:** Reducing manual data prep time by implementing Python-based ETL workflows.
-*   **Data Modeling:** Designing star schemas and optimized SQL views in BigQuery for faster dashboard refreshes.
-*   **Strategic Insights:** Translating complex technical findings into "Boardroom-ready" visualizations.
+# ⚙️ Data Pipeline Architecture
+
+```text
+CSV Files
+   ↓
+Python ETL Pipeline
+   ↓
+Google Cloud Storage
+   ↓
+BigQuery
+   ↓
+SQL Transformation
+   ↓
+Power BI Dashboard
+```
 
 ---
 
-## 📬 Connect with Me
-[![Email](https://shields.io)](mailto:babiabah6@gmail.com)
-[![GitHub Follow](https://shields.io)](https://github.com)
+# 🧹 Data Cleaning & Transformation
+
+The raw trip data was cleaned and transformed using SQL in BigQuery.
+
+Key transformations included:
+
+Key transformations included:
+
+- Removing null values
+- Removing duplicate records
+- Filtering unrealistic ride durations and outliers
+- Calculating ride duration
+- Extracting day of week
+- Extracting ride hour
+- Creating analytics-ready tables
+A final transformed table called `final_trips` was created for dashboard analysis.
 
 ---
-*“Building data systems to solve real-world problems. Open to collaborations and data roles.”*
 
+# 📊 Dashboard Features
+
+The Power BI dashboard includes:
+
+- Total rides KPI
+- Average ride duration
+- Rider type distribution
+- Ride trends by weekday
+- Ride trends by hour
+- Top start stations
+- Member vs casual rider comparison
 
 ---
-*“Turning data points into growth levers.”*
+
+# 🔍 Key Insights
+
+- Annual members ride more consistently during weekdays.
+- Casual riders are more active during weekends.
+- Peak ride activity occurs during daytime hours.
+- Certain stations generate significantly higher ride traffic.
+- Casual riders tend to use the service more for leisure behavior patterns.
+
+---
+
+# 💡 Business Recommendation
+
+Cyclistic should target casual riders during weekends and at high-traffic stations with membership promotions and incentives.
+
+Potential strategies include:
+- Weekend membership campaigns
+- Discounted annual plans
+- In-app targeted marketing
+- Promotions at top-performing stations
+
+---
+
+# 📷 Dashboard Preview
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+# 📂 Repository Structure
+
+```text
+Cyclistic-Bike-Share-Analysis/
+│
+├── README.md
+│
+├── python/
+│   └── cyclistic_pipeline.py
+│
+├── sql/
+│   └── final_trips.sql
+│
+├── dashboard/
+│   └── cyclistic_dashboard.pbix
+│
+└── screenshots/
+    └── dashboard.png
+```
+
+---
+
+# 🚀 Project Outcome
+
+This project demonstrates:
+
+- Data cleaning and transformation
+- ETL pipeline development
+- Cloud data integration
+- SQL analytics
+- Business intelligence reporting
+- Data storytelling and insights generation
+
+---
+
+# 👤 Author
+
+Your Name
+Babi Clovis Abah
 
