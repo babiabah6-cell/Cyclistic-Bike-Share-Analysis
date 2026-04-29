@@ -136,7 +136,5 @@ This project demonstrates:
 ---
 
 # 👤 Author
-
-Your Name
 Babi Clovis Abah
 
